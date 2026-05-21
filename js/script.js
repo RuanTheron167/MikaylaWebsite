@@ -1,4 +1,4 @@
-const STORY_START = new Date(2026, 4, 23, 17, 0, 0);
+const STORY_START = new Date(2025, 9, 11, 17, 0, 0);
 const SECOND = 1000;
 const MINUTE = SECOND * 60;
 const HOUR = MINUTE * 60;
