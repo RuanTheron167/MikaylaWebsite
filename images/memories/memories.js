@@ -1,0 +1,58 @@
+window.MEMORY_PHOTOS = [
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.15 (1).jpeg",
+    "caption": "Memory 1"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.15 (2).jpeg",
+    "caption": "Memory 2"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.15 (3).jpeg",
+    "caption": "Memory 3"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.15 (4).jpeg",
+    "caption": "Memory 4"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.15.jpeg",
+    "caption": "Memory 5"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.16 (1).jpeg",
+    "caption": "Memory 6"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.16 (2).jpeg",
+    "caption": "Memory 7"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.16 (3).jpeg",
+    "caption": "Memory 8"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.16.jpeg",
+    "caption": "Memory 9"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.17 (1).jpeg",
+    "caption": "Memory 10"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.17 (2).jpeg",
+    "caption": "Memory 11"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.17 (3).jpeg",
+    "caption": "Memory 12"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.18 (1).jpeg",
+    "caption": "Memory 13"
+  },
+  {
+    "file": "WhatsApp Image 2026-05-21 at 12.54.18.jpeg",
+    "caption": "Memory 14"
+  }
+];

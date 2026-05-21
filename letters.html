@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal romantic letters written with warmth, tenderness, and a luxury editorial aesthetic."
+    />
+    <title>My Letters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="letters-page">
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="Home">Our Story</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="letters.html" aria-current="page">Letters</a>
+        <a href="photo-library.html">Photos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="letters-hero">
+        <div class="letters-hero-overlay"></div>
+        <div class="section-inner reveal-blur">
+          <p class="eyebrow">Words I keep returning to</p>
+          <h1>My Letters</h1>
+        </div>
+      </section>
+
+      <section class="letters-section">
+        <div class="section-inner">
+          <div class="letters-grid" data-letters-list>
+            <article class="letter-card reveal-up">
+              <time datetime="2025-10-11">11 October 2025</time>
+              <h2>The Day You Walked Into My Life</h2>
+              <p>
+                You arrived late... with a disabled dog.
+              </p>
+              <p>
+                It's strange how clearly I still remember that moment. Your smile
+                made the whole room feel lighter without you even trying.
+              </p>
+              <p>
+                And somehow, on the very first day we met, you ended up wearing
+                my clothes.
+              </p>
+            </article>
+
+            <article class="letter-card reveal-up">
+              <time datetime="2025-10-22">22 October 2025</time>
+              <h2>A Potential Connection</h2>
+              <p>
+                We met at Die Naguil for dinner and a few drinks.
+              </p>
+              <p>
+                You ordered some weird cocktail. Obviously, I stuck to beer.
+              </p>
+              <p>
+                Then we started talking... and for a while I forgot about
+                everything happening around me.
+              </p>
+              <p>
+                And somewhere between the conversation and the laughter, I
+                realised something felt different about you.
+              </p>
+              <p>
+                I was slightly concerned Tjoefie might explode on the way home
+                though.
+              </p>
+              <p>
+                Thankfully, it didn't.
+              </p>
+            </article>
+
+            <article class="letter-card reveal-up">
+              <time datetime="2025-11-17">17 November 2025</time>
+              <h2>Finally, Just Us</h2>
+              <p>
+                It started with a 'few' cocktails at Cause &amp; Effect - which
+                became my favorite restaurant overnight.
+              </p>
+              <p>
+                Your habit of ordering the strangest cocktails also continued.
+              </p>
+              <p>
+                On the way back I asked if I could finally take you out for one
+                more drink. Just Us.
+              </p>
+              <p>
+                I must admit, you made me work for that "yes" but eventually...
+                you said it.
+              </p>
+            </article>
+
+            <article class="letter-card reveal-up">
+              <time datetime="2026-01-01">01 January 2026</time>
+              <h2>Our First 'Kiss'</h2>
+              <p>
+                Kaapstadt Brauhause.
+              </p>
+              <p>
+                The entire evening, one thought kept running through my head:
+              </p>
+              <p>
+                "How am I going to kiss this girl?"
+              </p>
+              <p>
+                Then finally it happened... a piksoen.
+              </p>
+              <p>
+                Honestly, not my finest moment.
+              </p>
+              <p>
+                Somehow, I still wouldn't change it even if I could.
+              </p>
+            </article>
+
+            <article class="letter-card reveal-up">
+              <time datetime="2026-02-07">07 February 2026</time>
+              <h2>BNI Greenclub</h2>
+              <p>
+                This was the first "big" thing I got to share with you.
+              </p>
+              <p>
+                You wore a red dress that evening... and honestly, you looked
+                stunning.
+              </p>
+              <p>
+                I was proud to have you there.
+              </p>
+              <p>
+                The rest of the BNI members seemed to like you a lot too - which,
+                if I'm being honest, made me slightly jealous.
+              </p>
+              <p>
+                That night was special to me for a lot of reasons.
+              </p>
+              <p>
+                But mostly because, later that evening I finally got my first
+                real kiss from you.
+              </p>
+            </article>
+
+            <article class="letter-card reveal-up">
+              <time datetime="2026-04-09">09 April 2026</time>
+              <h2>Our First Holiday</h2>
+              <p>
+                I was taking you to one of my favorite places, and you made it
+                even better.
+              </p>
+              <p>
+                You have a way of taking the things I already love, and making
+                me love them even more just because you're there.
+              </p>
+              <p>
+                Making memories with you has become one of my new favourite
+                things in this world.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" data-letter-modal aria-hidden="true">
+      <div class="modal-backdrop" data-close-letter></div>
+      <section
+        class="modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="letter-modal-title"
+      >
+        <button class="modal-close" type="button" data-close-letter aria-label="Close">
+          &times;
+        </button>
+        <p class="eyebrow">A new keepsake</p>
+        <h2 id="letter-modal-title">Add A Letter</h2>
+        <form class="letter-form" data-letter-form>
+          <label>
+            Date
+            <input type="date" name="date" required />
+          </label>
+          <label>
+            Title
+            <input
+              type="text"
+              name="title"
+              maxlength="80"
+              required
+              autocomplete="off"
+            />
+          </label>
+          <label>
+            Letter
+            <textarea name="body" rows="5" maxlength="420" required></textarea>
+          </label>
+          <button class="button button-primary" type="submit">Save Letter</button>
+        </form>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <p>Made with love.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

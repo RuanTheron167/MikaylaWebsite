@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A private romantic photo library for saving shared memories together."
+    />
+    <title>Our Memories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="photo-page">
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="Home">Our Story</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="letters.html">Letters</a>
+        <a href="photo-library.html" aria-current="page">Photos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="letters-hero photo-hero">
+        <div class="letters-hero-overlay"></div>
+        <div class="section-inner reveal-blur">
+          <p class="eyebrow">Every frame, kept close</p>
+          <h1>Our Memories</h1>
+        </div>
+      </section>
+
+      <section class="photo-section">
+        <div class="section-inner">
+          <section class="featured-memory reveal-up" data-featured-memory>
+            <div class="memory-empty">
+              <p>Add photos to the memories folder to begin.</p>
+            </div>
+          </section>
+
+          <section class="memory-gallery reveal-up" data-memory-gallery aria-label="All memories">
+            <div class="memory-gallery-header">
+              <p class="eyebrow">The rest of the story</p>
+              <h2>All Memories</h2>
+            </div>
+            <div class="memory-grid" data-memory-grid></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made with love.</p>
+    </footer>
+
+    <script src="images/memories/memories.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
