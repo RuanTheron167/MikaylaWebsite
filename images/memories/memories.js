@@ -57,30 +57,30 @@ window.MEMORY_PHOTOS = [
   },
   {
     "file": "photo15.jpeg",
-    "caption": "Memory 13"
+    "caption": "Memory 15"
   },
   {
     "file": "photo16.jpeg",
-    "caption": "Memory 13"
+    "caption": "Memory 16"
   },
   {
     "file": "photo17.jpeg",
-    "caption": "Memory 13"
+    "caption": "Memory 17"
   },
   {
     "file": "photo18.jpeg",
-    "caption": "Memory 13"
+    "caption": "Memory 18"
   },
   {
     "file": "photo19.jpeg",
-    "caption": "Memory 13"
+    "caption": "Memory 19"
   },
   {
     "file": "photo20.jpeg",
-    "caption": "Memory 13"
+    "caption": "Memory 20"
   },
   {
     "file": "photo21.jpeg",
-    "caption": "Memory 13"
+    "caption": "Memory 21"
   },
 ];
