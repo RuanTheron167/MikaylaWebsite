@@ -1,58 +1,86 @@
 window.MEMORY_PHOTOS = [
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.15 (1).jpeg",
+    "file": "photo1.jpeg",
     "caption": "Memory 1"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.15 (2).jpeg",
+    "file": "photo2.jpeg",
     "caption": "Memory 2"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.15 (3).jpeg",
+    "file": "photo3.jpeg",
     "caption": "Memory 3"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.15 (4).jpeg",
+    "file": "photo4.jpeg",
     "caption": "Memory 4"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.15.jpeg",
+    "file": "photo5.jpeg",
     "caption": "Memory 5"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.16 (1).jpeg",
+    "file": "photo6.jpeg",
     "caption": "Memory 6"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.16 (2).jpeg",
+    "file": "photo7.jpeg",
     "caption": "Memory 7"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.16 (3).jpeg",
+    "file": "photo8.jpeg",
     "caption": "Memory 8"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.16.jpeg",
+    "file": "photo9.jpeg",
     "caption": "Memory 9"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.17 (1).jpeg",
+    "file": "photo10.jpeg",
     "caption": "Memory 10"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.17 (2).jpeg",
+    "file": "photo11.jpeg",
     "caption": "Memory 11"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.17 (3).jpeg",
+    "file": "photo12.jpeg",
     "caption": "Memory 12"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.18 (1).jpeg",
+    "file": "photo13.jpeg",
     "caption": "Memory 13"
   },
   {
-    "file": "WhatsApp Image 2026-05-21 at 12.54.18.jpeg",
+    "file": "photo14.jpeg",
     "caption": "Memory 14"
-  }
+  },
+  {
+    "file": "photo15.jpeg",
+    "caption": "Memory 13"
+  },
+  {
+    "file": "photo16.jpeg",
+    "caption": "Memory 13"
+  },
+  {
+    "file": "photo17.jpeg",
+    "caption": "Memory 13"
+  },
+  {
+    "file": "photo18.jpeg",
+    "caption": "Memory 13"
+  },
+  {
+    "file": "photo19.jpeg",
+    "caption": "Memory 13"
+  },
+  {
+    "file": "photo20.jpeg",
+    "caption": "Memory 13"
+  },
+  {
+    "file": "photo21.jpeg",
+    "caption": "Memory 13"
+  },
 ];
